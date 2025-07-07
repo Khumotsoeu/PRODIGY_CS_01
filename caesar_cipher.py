@@ -7,3 +7,6 @@ def encrypt(text, shift):
            else:
                    result += character
     return result
+
+def decrypt(text, shift):
+      return encrypt(text, -shift)
